@@ -26,6 +26,7 @@
                 {{ detail }}
               </li>
             </ul>
+            <div v-for="variant in variants" ::key="variant.id">{{ variant.color }}</div>
             <div class="product-name"></div>
             <div class="product-price"></div>
           </div>
